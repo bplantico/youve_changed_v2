@@ -14,6 +14,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bcrypt'
 gem 'rails_12factor', group: :production
 gem 'figaro'
+gem 'bundler', '>=1.15.2'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
